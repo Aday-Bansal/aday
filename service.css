@@ -1,0 +1,27 @@
+.service{
+background-color: blue;    
+}
+.bgmi{
+display: flex;  
+width: 100%;
+justify-content: space-around;
+}
+.con3{
+ background-color: blueviolet; 
+ height: 44px;
+ padding: 35%;  
+}
+.h2{
+font-size: 50px; 
+text-align: center;  
+color: aqua; 
+}
+.con3{
+    width: 50px;
+  border-radius:10px;  
+}
+.image img{
+ height: 50px; 
+ width: 215px; 
+ border-radius: 30px; 
+}

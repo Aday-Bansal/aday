@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    padding-top: 5px;
+    background-color: #000000b8;
+    align-items: center;
+    padding-left: 14px;
+    padding-bottom: 5px;
+    /* to make sticky */
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+}
+
+.navbar img{
+    width: 50px;
+}
+
+.navbar .text{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    color: #ffffffa3;
+    cursor: pointer;
+}
+.navbar .txt:hover{
+    color: #ffff0070;
+}
+
+.navbar .btn button{
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 7px;
+    width: 125%;
+    color: #ffff0070;
+    background-color: #00000030;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.navbar .btn button:hover{
+    color: #ffffffa3;
+    background-color: black;
+}
+
+
+
+
+
+
+.home{
+    background-image: url(new\ webasite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.home .heading{
+    font-size: 4rem;
+    position: relative;
+    top: 20px;
+    margin-left: 40px;
+    color: #ffffffa3;
+    margin-bottom: 20px;
+}
+.home .subheading{
+    font-size: 2.6rem;
+    margin-left: 40px;
+    color: #ffff0070;
+    margin-bottom: 25px;
+}
+.home .text{
+    margin-left: 40px;
+    color: white;
+    width: 55%;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+.home .btn button{
+    border-radius: 10px;
+    position: relative;
+    bottom: 60px;
+    font-size: 15px;
+    padding: 7px;
+    width: 8%;
+    color: #ffff0070;
+    margin-top: 90px;
+    background-color: #3626c26e;
+    border: none;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.home .btn button:hover{
+    color: #ffffffa3;
+    background-color:rgb(0, 0, 0);
+}
+
+
+
+
+
+.about{
+    background-color: aqua;
+}
+
+.about .heading{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: #ffffffa3;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.about .subheading{
+    margin-left: 40px;
+    font-size: 25px;
+}
+.about .color{
+    color: #ffff0070;
+}
+
+.about .details{
+    display: flex;
+    margin-left: 40px;
+    letter-spacing: 0;
+    position: relative;
+    margin-top: 60px;
+    bottom: 50px;
+    align-items: center;
+}
+.about .text{
+    width: 200%;
+}
+
+.about .details img{
+    width: 58%;
+    height: 84%;
+    margin-left: 114px;
+}
+footer{
+ font-size: 30px;   
+}
+
+.contact .row i:hover{
+animation: shake 1s;
+
+}
+@keyframes shake{
+    10%{transform:rotate(20deg);}
+    20%{transform:rotate(-20deg);}
+    30%{transform:rotate(20deg);}
+    40%{transform:rotate(-20deg);}
+        
+}
+html{
+scroll-behavior: smooth;    
+}
